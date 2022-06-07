@@ -66,7 +66,6 @@ pizzeriaLosHijosDePato = map (agregarIngrediente "palmito")
 
 -- b
 pizzeriaElResumen :: Pizzeria
-pizzeriaElResumen [pizza] = [pizza]
 pizzeriaElResumen pedido = zipWith mezcladita pedido (tail pedido)
 
 -- c
