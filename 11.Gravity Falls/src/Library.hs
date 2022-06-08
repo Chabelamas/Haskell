@@ -1,11 +1,6 @@
 module Library where
 import PdePreludat
 
-apruebaParcial :: (String,String) -> Bool
-apruebaParcial ("Chabe","Jere") = True
-apruebaParcial ("Matos",_) = False
-apruebaParcial _ = False
-
 -- Primera parte: Las Rarezas
 -- Punto 1
 type Vulnerabilidad = Persona -> Bool
